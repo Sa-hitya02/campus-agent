@@ -1,5 +1,4 @@
-const BASE_URL = "https://campus-agent-8mil-fm10qikc1-sa-hitya02s-projects.vercel.app/api";
-
+const BASE_URL = "https://campus-agent-8mil.vercel.app/api";
 const handleResponse = async (res) => {
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || "Request failed");
