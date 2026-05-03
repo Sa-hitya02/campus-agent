@@ -1,4 +1,4 @@
-const BASE_URL = "https://sahitya02.pythonanywhere.com/api";
+const BASE_URL = "https://campus-agent-8mil-fm10qikc1-sa-hitya02s-projects.vercel.app/api";
 
 const handleResponse = async (res) => {
   const data = await res.json();
